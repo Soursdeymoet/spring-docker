@@ -7,7 +7,7 @@ services:
       port:
         - "8564:8080"
       network:
-        - spring-net
+        - "spring-net"
 
 nginx:
   image: nginx:latest
